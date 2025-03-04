@@ -28,7 +28,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 30
-
+    namespace = "me.tossy.flutter.unique_ids"
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
